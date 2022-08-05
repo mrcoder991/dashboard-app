@@ -32,11 +32,11 @@ const Ecommerce = () => {
 
         </div>
 
-        <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>
+        <div className='flex m-3 flex-wrap justify-center gap-5 items-center'>
           {earningData.map((item) => (
             <div
               key={item.title}
-              className='bg-gray-100 dark:bg-secondary-dark-bg dark:text-gray-200 dark:bg md:w-56 p-4 py-9 rounded-2xl'
+              className='bg-gray-100 dark:bg-secondary-dark-bg dark:text-gray-200 dark:bg md:w-40 p-4 py-9 rounded-2xl'
             >
               <button
                 type='button'
