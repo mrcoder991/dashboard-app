@@ -1,4 +1,4 @@
-# dashboard-app
+# React Dashboard-app
 This react dashboard project contents many pages which are completely interactive, syncfusion charts which can visualize data in simple way (Dummy data is used to show contents on the whole application)
 
 ## Running this projects on your environment 
