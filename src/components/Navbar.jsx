@@ -35,6 +35,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleResize = () => {
       setScreenSize(window.innerWidth)
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }
 
     window.addEventListener('resize', handleResize);
@@ -50,6 +51,7 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [screenSize]);
   
 
@@ -68,7 +70,7 @@ const Navbar = () => {
             onClick={() => handleClick('userProfile')}
             className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
           >
-            <img className='rounded-full w-8 h-8' src={avatar} />
+            <img className='rounded-full w-8 h-8' src={avatar} alt='avatar'/>
             <p>
               <span className='text-gray-400 text-14'>Hi, </span> {' '}
               <span className='text-gray-400 font-bold ml-1 text-14'>Micheal</span>

@@ -5,8 +5,6 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { themeColors } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-import Button from './Button';
-import { Label } from '@syncfusion/ej2/circulargauge';
 
 const ThemeSettings = () => {
   const { setColor, setMode, currentMode, currentColor, setThemeSettings } = useStateContext();
