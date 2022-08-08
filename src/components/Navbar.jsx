@@ -35,14 +35,14 @@ const Navbar = () => {
   useEffect(() => {
     const handleResize = () => {
       setScreenSize(window.innerWidth)
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }
-
+    
     window.addEventListener('resize', handleResize);
     
     handleResize();
-
+    
     return () => window.removeEventListener('resize', handleResize);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   useEffect(() => {
