@@ -12,4 +12,5 @@ To view the application, run :
 ```
 
 ## License
+Copyright (c) 2022 Uday Girhepunje
 [MIT](./LICENSE)
